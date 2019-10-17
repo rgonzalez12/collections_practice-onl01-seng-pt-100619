@@ -1,15 +1,15 @@
 def sort_array_asc(array)
-  array.sort
+ array.sort
 end
 
 def sort_array_desc(array)
-  array.sort.reverse 
+ array.sort.reverse 
 end
 
 def sort_array_char_count(array)
-  array.sort do |left, right|
-   left.length <=> right.length
-  end
+ array.sort do |left, right|
+  left.length <=> right.length
+ end
 end
 
 def swap_elements(array)
@@ -18,18 +18,18 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.reverse
+ array.reverse
 end
 
 def kesha_maker(array)
-  array.each do |element|
-   element[2] = "$"
-  end
+ array.each do |element|
+  element[2] = "$"
+ end
 end
 
 def find_a(array)
-  array.select do |element|
-   element[0] == "a"
+ array.select do |element|
+  element[0] == "a"
  end
 end
 
