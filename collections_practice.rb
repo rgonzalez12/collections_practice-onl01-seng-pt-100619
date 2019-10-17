@@ -28,7 +28,7 @@ end
 
 def sum_array(array)
  sum = []
- array.each { |element| sum << element + element }
+ array.each { |element| element + element }
  return sum
 end
 
