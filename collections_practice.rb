@@ -27,7 +27,13 @@ def find_a(array)
 end
 
 def sum_array(array)
-
+ total = 0
+ i = 0
+ while i < nums.count
+  total += nums[i]
+  i += 1
+  end
+  total
 end
 
 def add_s(array)
