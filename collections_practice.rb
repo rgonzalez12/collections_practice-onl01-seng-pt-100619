@@ -3,11 +3,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  i = 0 
-  sorted_array = []
-  while i < array.length
-  
-  i += 1 
+  array.sort.reverse
 end
 
 def sort_array_char_count(array)
