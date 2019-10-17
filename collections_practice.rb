@@ -5,7 +5,8 @@ end
 def sort_array_desc(array)
   i = 0 
   sorted_array = []
-  if 
+  while i < array.length
+  
 end
 
 def sort_array_char_count(array)
